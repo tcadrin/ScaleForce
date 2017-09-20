@@ -43,6 +43,10 @@ struct AssetType: ExpressibleByStringLiteral {
 
 // swiftlint:disable type_body_length
 enum Asset {
+  static let icnNavbarCancelX: AssetType = "icn_navbar_cancel_x"
+  static let icnNavbarPlus: AssetType = "icn_navbar_plus_+"
+  static let keyboardLeftArrow: AssetType = "keyboard_left_arrow"
+  static let keyboardRightArrow: AssetType = "keyboard_right_arrow"
   static let logoKennyLoggins: AssetType = "logo-kenny-loggins"
 }
 // swiftlint:enable type_body_length

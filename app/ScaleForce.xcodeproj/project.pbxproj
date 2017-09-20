@@ -11,21 +11,18 @@
 		006EFEF41F2641D5004A95DE /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EFEF31F2641D5004A95DE /* APIEnvironment.swift */; };
 		006EFEF61F264204004A95DE /* TestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EFEF51F264204004A95DE /* TestClient.swift */; };
 		006EFEFE1F267C2B004A95DE /* APIEndpoint+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EFEFD1F267C2B004A95DE /* APIEndpoint+Logging.swift */; };
+		0080B82C1F733187006722A1 /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B8281F733187006722A1 /* FormField.swift */; };
+		0080B82D1F733187006722A1 /* FormFieldInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B8291F733187006722A1 /* FormFieldInputController.swift */; };
+		0080B82E1F733187006722A1 /* FormInputToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B82A1F733187006722A1 /* FormInputToolbar.swift */; };
+		0080B82F1F733187006722A1 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B82B1F733187006722A1 /* FormViewController.swift */; };
+		0080B8341F733381006722A1 /* FormField+Lookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B8331F733381006722A1 /* FormField+Lookup.swift */; };
 		2D4FA8F51E8574F9006C38ED /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FA8F41E8574F9006C38ED /* AppCoordinator.swift */; };
-		2D4FA8F71E85752B006C38ED /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FA8F61E85752B006C38ED /* Coordinator.swift */; };
 		2D6E54781E9D16AA00690B0A /* APISerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E54771E9D16AA00690B0A /* APISerialization.swift */; };
 		2D6E547A1E9D16F200690B0A /* APIValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E54791E9D16F200690B0A /* APIValidation.swift */; };
-		2D75C6C71E8EEAE900F2EB1D /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1CEC1E8944B900B1AD70 /* OnboardingCoordinator.swift */; };
-		2D75C6C81E8EEB1900F2EB1D /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FA8F81E8577B5006C38ED /* AuthCoordinator.swift */; };
 		2DAB59F61E9531F700310ABF /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB59F51E9531F700310ABF /* Closures.swift */; };
-		2DAB59F81E95336100310ABF /* OnboardingSamplePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB59F71E95336100310ABF /* OnboardingSamplePageViewModel.swift */; };
 		2DFF1CEB1E89423000B1AD70 /* UserDefaults+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1CEA1E89423000B1AD70 /* UserDefaults+Utility.swift */; };
-		2DFF1CEF1E89493300B1AD70 /* SignInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1CEE1E89493300B1AD70 /* SignInCoordinator.swift */; };
-		2DFF1CF11E8950F000B1AD70 /* ContentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1CF01E8950F000B1AD70 /* ContentCoordinator.swift */; };
-		2DFF1D121E8BE27B00B1AD70 /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1D111E8BE27B00B1AD70 /* OnboardingPageViewController.swift */; };
 		2DFF1D161E8BF38F00B1AD70 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1D151E8BF38F00B1AD70 /* UIColor+Extensions.swift */; };
 		2DFF1D181E8BF82A00B1AD70 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1D171E8BF82A00B1AD70 /* Colors.swift */; };
-		2DFF1D1C1E8C424800B1AD70 /* OnboardingSamplePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF1D1B1E8C424800B1AD70 /* OnboardingSamplePageViewController.swift */; };
 		85083D4AEA7B5B726A79F450 /* Pods_ScaleForce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD9F2E21AB27A0230007885 /* Pods_ScaleForce.framework */; };
 		959F487642A61EF85C170AF9 /* Pods_ScaleForce_ScaleForceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845339F96003195CE76EA042 /* Pods_ScaleForce_ScaleForceTests.framework */; };
 		ABC778791DC90B7A00815FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC778781DC90B7A00815FB9 /* AppDelegate.swift */; };
@@ -60,7 +57,6 @@
 		BE28092B1E802893006E50D5 /* AnalyticsPageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2809281E802893006E50D5 /* AnalyticsPageNames.swift */; };
 		BE28092C1E802893006E50D5 /* GoogleAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2809291E802893006E50D5 /* GoogleAnalytics.swift */; };
 		BE28092E1E8029D8006E50D5 /* AnalyticsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28092D1E8029D8006E50D5 /* AnalyticsConfiguration.swift */; };
-		BE2809301E8038BE006E50D5 /* ContentTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28092F1E8038BE006E50D5 /* ContentTabBarViewController.swift */; };
 		BE4C21EB1E81970A00645143 /* DebugMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4C21EA1E81970A00645143 /* DebugMenuConfiguration.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,26 +88,23 @@
 		006EFEF31F2641D5004A95DE /* APIEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
 		006EFEF51F264204004A95DE /* TestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClient.swift; sourceTree = "<group>"; };
 		006EFEFD1F267C2B004A95DE /* APIEndpoint+Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIEndpoint+Logging.swift"; sourceTree = "<group>"; };
+		0080B8281F733187006722A1 /* FormField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		0080B8291F733187006722A1 /* FormFieldInputController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormFieldInputController.swift; sourceTree = "<group>"; };
+		0080B82A1F733187006722A1 /* FormInputToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormInputToolbar.swift; sourceTree = "<group>"; };
+		0080B82B1F733187006722A1 /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		0080B8331F733381006722A1 /* FormField+Lookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FormField+Lookup.swift"; sourceTree = "<group>"; };
 		00C3A8FB1F20FDAA00A1E7D0 /* AppStore.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppStore.xcconfig; sourceTree = "<group>"; };
 		0B68FC2C40AE35C100C8E0A5 /* Pods-ScaleForce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForce/Pods-ScaleForce.debug.xcconfig"; sourceTree = "<group>"; };
 		17DC86D175CE0686878A3A82 /* Pods-ScaleForce-ScaleForceTests.sprint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForce-ScaleForceTests.sprint.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForce-ScaleForceTests/Pods-ScaleForce-ScaleForceTests.sprint.xcconfig"; sourceTree = "<group>"; };
 		18117B6A27EAD54897E61F7E /* Pods-ScaleForce-ScaleForceTests.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForce-ScaleForceTests.develop.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForce-ScaleForceTests/Pods-ScaleForce-ScaleForceTests.develop.xcconfig"; sourceTree = "<group>"; };
 		29EBF39E7266FDA41A477533 /* Pods-ScaleForceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForceTests/Pods-ScaleForceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D4FA8F41E8574F9006C38ED /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		2D4FA8F61E85752B006C38ED /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		2D4FA8F81E8577B5006C38ED /* AuthCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
 		2D6E54771E9D16AA00690B0A /* APISerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APISerialization.swift; sourceTree = "<group>"; };
 		2D6E54791E9D16F200690B0A /* APIValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIValidation.swift; sourceTree = "<group>"; };
 		2DAB59F51E9531F700310ABF /* Closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
-		2DAB59F71E95336100310ABF /* OnboardingSamplePageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSamplePageViewModel.swift; sourceTree = "<group>"; };
 		2DFF1CEA1E89423000B1AD70 /* UserDefaults+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Utility.swift"; sourceTree = "<group>"; };
-		2DFF1CEC1E8944B900B1AD70 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
-		2DFF1CEE1E89493300B1AD70 /* SignInCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInCoordinator.swift; sourceTree = "<group>"; };
-		2DFF1CF01E8950F000B1AD70 /* ContentCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCoordinator.swift; sourceTree = "<group>"; };
-		2DFF1D111E8BE27B00B1AD70 /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
 		2DFF1D151E8BF38F00B1AD70 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		2DFF1D171E8BF82A00B1AD70 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		2DFF1D1B1E8C424800B1AD70 /* OnboardingSamplePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSamplePageViewController.swift; sourceTree = "<group>"; };
 		36045522D92DD8ED3DFB7FC8 /* Pods-ScaleForce-ScaleForceTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForce-ScaleForceTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForce-ScaleForceTests/Pods-ScaleForce-ScaleForceTests.appstore.xcconfig"; sourceTree = "<group>"; };
 		678F16A2ED0F9395E247B50F /* Pods-ScaleForceTests.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForceTests.develop.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForceTests/Pods-ScaleForceTests.develop.xcconfig"; sourceTree = "<group>"; };
 		6A9B67E292488844A2F6D30B /* Pods-ScaleForceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForceTests/Pods-ScaleForceTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,7 +156,6 @@
 		BE2809281E802893006E50D5 /* AnalyticsPageNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsPageNames.swift; sourceTree = "<group>"; };
 		BE2809291E802893006E50D5 /* GoogleAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAnalytics.swift; sourceTree = "<group>"; };
 		BE28092D1E8029D8006E50D5 /* AnalyticsConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsConfiguration.swift; sourceTree = "<group>"; };
-		BE28092F1E8038BE006E50D5 /* ContentTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTabBarViewController.swift; sourceTree = "<group>"; };
 		BE4C21EA1E81970A00645143 /* DebugMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMenuConfiguration.swift; sourceTree = "<group>"; };
 		C3A4171B7E64E228CC7A0DF7 /* Pods-ScaleForce-ScaleForceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForce-ScaleForceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForce-ScaleForceTests/Pods-ScaleForce-ScaleForceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7DBD1236E57FBDDF10B2FB0 /* Pods-ScaleForce.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForce.develop.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForce/Pods-ScaleForce.develop.xcconfig"; sourceTree = "<group>"; };
@@ -190,27 +182,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0080B8261F7330EB006722A1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0080B8271F73316E006722A1 /* Forms */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		0080B8271F73316E006722A1 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				0080B8281F733187006722A1 /* FormField.swift */,
+				0080B8291F733187006722A1 /* FormFieldInputController.swift */,
+				0080B82A1F733187006722A1 /* FormInputToolbar.swift */,
+				0080B82B1F733187006722A1 /* FormViewController.swift */,
+				0080B8331F733381006722A1 /* FormField+Lookup.swift */,
+			);
+			name = Forms;
+			sourceTree = "<group>";
+		};
 		2D4FA8F31E8574D2006C38ED /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
 				2D4FA8F41E8574F9006C38ED /* AppCoordinator.swift */,
-				2D4FA8F81E8577B5006C38ED /* AuthCoordinator.swift */,
-				2DFF1CF01E8950F000B1AD70 /* ContentCoordinator.swift */,
-				2D4FA8F61E85752B006C38ED /* Coordinator.swift */,
-				2DFF1CEC1E8944B900B1AD70 /* OnboardingCoordinator.swift */,
-				2DFF1CEE1E89493300B1AD70 /* SignInCoordinator.swift */,
 			);
 			path = Coordinators;
-			sourceTree = "<group>";
-		};
-		2DFF1D131E8BE3D400B1AD70 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				2DFF1D111E8BE27B00B1AD70 /* OnboardingPageViewController.swift */,
-				2DFF1D1B1E8C424800B1AD70 /* OnboardingSamplePageViewController.swift */,
-				2DAB59F71E95336100310ABF /* OnboardingSamplePageViewModel.swift */,
-			);
-			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		2DFF1D141E8BF37C00B1AD70 /* Extensions */ = {
@@ -254,8 +251,6 @@
 		AB955DCB1DE3BDD300D0347E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				2DFF1D131E8BE3D400B1AD70 /* Onboarding */,
-				BE28092F1E8038BE006E50D5 /* ContentTabBarViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -285,6 +280,7 @@
 			children = (
 				ABC778C51DC9266900815FB9 /* API */,
 				ABC778981DC91DFB00815FB9 /* Application */,
+				0080B8261F7330EB006722A1 /* Components */,
 				2D4FA8F31E8574D2006C38ED /* Coordinators */,
 				2DFF1D141E8BF37C00B1AD70 /* Extensions */,
 				ABC778C41DC9266300815FB9 /* Model */,
@@ -710,31 +706,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D75C6C81E8EEB1900F2EB1D /* AuthCoordinator.swift in Sources */,
-				2D75C6C71E8EEAE900F2EB1D /* OnboardingCoordinator.swift in Sources */,
-				2DFF1D1C1E8C424800B1AD70 /* OnboardingSamplePageViewController.swift in Sources */,
 				ABF84F941DCA7F0A002DB24D /* OAuth.swift in Sources */,
 				2D6E54781E9D16AA00690B0A /* APISerialization.swift in Sources */,
-				2DFF1CF11E8950F000B1AD70 /* ContentCoordinator.swift in Sources */,
 				2DAB59F61E9531F700310ABF /* Closures.swift in Sources */,
 				ABF84F8D1DC99CFD002DB24D /* TextStyle.swift in Sources */,
 				ABF84FA21DCBCB87002DB24D /* Marshal+Utility.swift in Sources */,
 				ABC778EA1DC951B900815FB9 /* LoggingConfiguration.swift in Sources */,
+				0080B8341F733381006722A1 /* FormField+Lookup.swift in Sources */,
+				0080B82C1F733187006722A1 /* FormField.swift in Sources */,
 				BE4C21EB1E81970A00645143 /* DebugMenuConfiguration.swift in Sources */,
 				ABF84F9A1DCB70BB002DB24D /* Alamofire+ScaleForce.swift in Sources */,
 				006EFEF21F2641C9004A95DE /* APIClient+ScaleForce.swift in Sources */,
-				2D4FA8F71E85752B006C38ED /* Coordinator.swift in Sources */,
 				006EFEF41F2641D5004A95DE /* APIEnvironment.swift in Sources */,
 				2D4FA8F51E8574F9006C38ED /* AppCoordinator.swift in Sources */,
-				2DFF1CEF1E89493300B1AD70 /* SignInCoordinator.swift in Sources */,
 				ABC778DA1DC93E9C00815FB9 /* APIEndpoint.swift in Sources */,
 				ABC778C91DC927C900815FB9 /* Formatters.swift in Sources */,
-				2DAB59F81E95336100310ABF /* OnboardingSamplePageViewModel.swift in Sources */,
 				BE28092C1E802893006E50D5 /* GoogleAnalytics.swift in Sources */,
 				2D6E547A1E9D16F200690B0A /* APIValidation.swift in Sources */,
 				ABC778E11DC94F4400815FB9 /* AppLifecycle.swift in Sources */,
 				2DFF1D161E8BF38F00B1AD70 /* UIColor+Extensions.swift in Sources */,
+				0080B82D1F733187006722A1 /* FormFieldInputController.swift in Sources */,
 				2DFF1CEB1E89423000B1AD70 /* UserDefaults+Utility.swift in Sources */,
+				0080B82E1F733187006722A1 /* FormInputToolbar.swift in Sources */,
 				ABF84F921DC99D33002DB24D /* UIImage+Asset.swift in Sources */,
 				ABF84F911DC99D33002DB24D /* Localized.swift in Sources */,
 				ABC778E81DC9503600815FB9 /* InstabugConfiguration.swift in Sources */,
@@ -744,13 +737,12 @@
 				006EFEFE1F267C2B004A95DE /* APIEndpoint+Logging.swift in Sources */,
 				BE28092E1E8029D8006E50D5 /* AnalyticsConfiguration.swift in Sources */,
 				ABF84F7F1DC970E8002DB24D /* APIClient.swift in Sources */,
+				0080B82F1F733187006722A1 /* FormViewController.swift in Sources */,
 				ABF84F981DCAB3B9002DB24D /* APIConstants.swift in Sources */,
 				ABF84F8C1DC99CFD002DB24D /* Appearance.swift in Sources */,
 				ABC778791DC90B7A00815FB9 /* AppDelegate.swift in Sources */,
-				BE2809301E8038BE006E50D5 /* ContentTabBarViewController.swift in Sources */,
 				2DFF1D181E8BF82A00B1AD70 /* Colors.swift in Sources */,
 				BE28092A1E802893006E50D5 /* Analytics.swift in Sources */,
-				2DFF1D121E8BE27B00B1AD70 /* OnboardingPageViewController.swift in Sources */,
 				ABC778D61DC931A400815FB9 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -843,7 +835,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScaleForce/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SWIFT_VERSION = 3.0;
 			};
@@ -966,7 +958,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScaleForce/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SWIFT_VERSION = 3.0;
 			};
@@ -978,7 +970,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScaleForce/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1064,7 +1056,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScaleForce/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SWIFT_VERSION = 3.0;
 			};

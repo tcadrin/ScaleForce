@@ -2,68 +2,25 @@
 //  AppCoordinator.swift
 //  ScaleForce
 //
-//  Created by Jay Clark on 3/24/17.
-//  Copyright © 2017 LongTime. All rights reserved.
+//  Created by Jason Clark on 8/14/17.
+//
 //
 
-import UIKit
+import Foundation
 
-class AppCoordinator: Coordinator {
+class AppCoordinator {
 
-    private let window: UIWindow
-    fileprivate let rootController: UIViewController
-    var childCoordinator: Coordinator?
+    let window: UIWindow
 
     init(window: UIWindow) {
         self.window = window
-        let rootController = UIViewController()
-        rootController.view.backgroundColor = .white
-        self.rootController = rootController
     }
 
-    func start(animated: Bool, completion: VoidClosure?) {
-        // Configure window/root view controller
-        window.setRootViewController(rootController, animated: false, completion: {
-            self.window.makeKeyAndVisible()
+    func start() {
 
-            // Spin off auth coordinator
-            let authCoordinator = AuthCoordinator(self.rootController)
-            authCoordinator.delegate = self
-            self.childCoordinator = authCoordinator
-            authCoordinator.start(animated: animated, completion: completion)
-        })
-    }
+        window.rootViewController = UIViewController()
+        window.makeKeyAndVisible()
 
-    func cleanup(animated: Bool, completion: VoidClosure?) {
-        completion?()
-    }
-
-}
-
-extension AppCoordinator: AuthCoordinatorDelegate {
-
-    func didSignIn() {
-        guard let authCoordinator = childCoordinator as? AuthCoordinator else {
-            preconditionFailure("Upon signing in, AppCoordinator should have an AuthCoordinator as a child.")
-        }
-        childCoordinator = nil
-        authCoordinator.cleanup(animated: true, completion: {
-            let contentCoordinator = ContentCoordinator(self.rootController)
-            self.childCoordinator = contentCoordinator
-            contentCoordinator.start(animated: true, completion: nil)
-        })
-    }
-
-    func didSkipAuth() {
-        guard let authCoordinator = childCoordinator as? AuthCoordinator else {
-            preconditionFailure("Upon signing in, AppCoordinator should have an AuthCoordinator as a child.")
-        }
-        childCoordinator = nil
-        authCoordinator.cleanup(animated: false, completion: {
-            let contentCoordinator = ContentCoordinator(self.rootController)
-            self.childCoordinator = contentCoordinator
-            contentCoordinator.start(animated: true, completion: nil)
-        })
     }
 
 }
