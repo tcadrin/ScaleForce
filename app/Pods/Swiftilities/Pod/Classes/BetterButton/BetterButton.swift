@@ -20,7 +20,7 @@ private struct StyleConstants {
 }
 
 /// A "better" version of `UIButton` that supports various button styles and shapes.
-public class BetterButton: UIButton {
+open class BetterButton: UIButton {
 
     /// The shape of the button.
     ///
@@ -82,7 +82,7 @@ public class BetterButton: UIButton {
         var borderWidth: CGFloat?
         var adjustMode: HighlightAdjustMode
 
-        init(backgroundColor: UIColor,
+        public init(backgroundColor: UIColor,
              highlightedBackgroundColor: UIColor?,
              foregroundColor: UIColor,
              highlightedForegroundColor: UIColor?,
@@ -195,7 +195,7 @@ public class BetterButton: UIButton {
         fatalError("BetterButton does not yet support the use of Interface Builder.")
     }
 
-    public override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         activityIndicator.center = CGPoint(x: bounds.midX, y: bounds.midY)
         self.bringSubview(toFront: activityIndicator)
@@ -203,7 +203,7 @@ public class BetterButton: UIButton {
         self.titleLabel?.isHidden = isLoading
     }
 
-    override public var frame: CGRect {
+    override open var frame: CGRect {
         get {
             return super.frame
         }
@@ -213,7 +213,7 @@ public class BetterButton: UIButton {
         }
     }
 
-    override public var bounds: CGRect {
+    override open var bounds: CGRect {
         get {
             return super.bounds
         }

@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 use_frameworks!
 inhibit_all_warnings!
 
@@ -9,11 +9,15 @@ target 'ScaleForce' do
   pod 'Alamofire'
   pod 'KeychainAccess'
   pod 'Marshal'
-  pod 'SwiftLint'
+
+  pod 'lottie-ios'
+  pod 'MaterialComponents'
 
   pod 'BonMot'
   pod 'Anchorage'
-  pod 'Swiftilities'
+  pod 'Swiftilities', :git => 'https://github.com/Raizlabs/Swiftilities', :branch => 'feature/heyltsjay/misc-enhancements'
+
+  pod 'FrictionLess', :git => 'https://github.com/Raizlabs/FrictionLess', :branch =>  'feature/heyltsjay/materialTextField'
 
   pod 'GoogleAnalytics',   '~>3.0'
 
@@ -23,8 +27,9 @@ target 'ScaleForce' do
 
 end
 
-
+pod 'SwiftLint'
 pod 'SwiftGen'
+pod 'Sourcery'
 
 post_install do |installer|
   require 'fileutils'
