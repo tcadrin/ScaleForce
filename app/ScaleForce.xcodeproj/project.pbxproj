@@ -16,6 +16,13 @@
 		0080B82E1F733187006722A1 /* FormInputToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B82A1F733187006722A1 /* FormInputToolbar.swift */; };
 		0080B82F1F733187006722A1 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B82B1F733187006722A1 /* FormViewController.swift */; };
 		0080B8341F733381006722A1 /* FormField+Lookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B8331F733381006722A1 /* FormField+Lookup.swift */; };
+		0080B8371F733777006722A1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B8361F733777006722A1 /* SignInViewController.swift */; };
+		0080B8391F7337A4006722A1 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B8381F7337A4006722A1 /* SignInView.swift */; };
+		0080B83B1F733BE3006722A1 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B83A1F733BE3006722A1 /* CTAButton.swift */; };
+		0080B83D1F733C1B006722A1 /* ShadowViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B83C1F733C1B006722A1 /* ShadowViews.swift */; };
+		0080B83F1F73437F006722A1 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B83E1F73437F006722A1 /* UIView+Appearance.swift */; };
+		0080B8411F73440E006722A1 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B8401F73440E006722A1 /* SignInViewModel.swift */; };
+		0080B8441F73447D006722A1 /* PasswordEntryFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080B8431F73447D006722A1 /* PasswordEntryFormatter.swift */; };
 		2D4FA8F51E8574F9006C38ED /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FA8F41E8574F9006C38ED /* AppCoordinator.swift */; };
 		2D6E54781E9D16AA00690B0A /* APISerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E54771E9D16AA00690B0A /* APISerialization.swift */; };
 		2D6E547A1E9D16F200690B0A /* APIValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E54791E9D16F200690B0A /* APIValidation.swift */; };
@@ -93,6 +100,13 @@
 		0080B82A1F733187006722A1 /* FormInputToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormInputToolbar.swift; sourceTree = "<group>"; };
 		0080B82B1F733187006722A1 /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		0080B8331F733381006722A1 /* FormField+Lookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FormField+Lookup.swift"; sourceTree = "<group>"; };
+		0080B8361F733777006722A1 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0080B8381F7337A4006722A1 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		0080B83A1F733BE3006722A1 /* CTAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
+		0080B83C1F733C1B006722A1 /* ShadowViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowViews.swift; sourceTree = "<group>"; };
+		0080B83E1F73437F006722A1 /* UIView+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Appearance.swift"; sourceTree = "<group>"; };
+		0080B8401F73440E006722A1 /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		0080B8431F73447D006722A1 /* PasswordEntryFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordEntryFormatter.swift; sourceTree = "<group>"; };
 		00C3A8FB1F20FDAA00A1E7D0 /* AppStore.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppStore.xcconfig; sourceTree = "<group>"; };
 		0B68FC2C40AE35C100C8E0A5 /* Pods-ScaleForce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForce/Pods-ScaleForce.debug.xcconfig"; sourceTree = "<group>"; };
 		17DC86D175CE0686878A3A82 /* Pods-ScaleForce-ScaleForceTests.sprint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleForce-ScaleForceTests.sprint.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleForce-ScaleForceTests/Pods-ScaleForce-ScaleForceTests.sprint.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				0080B8271F73316E006722A1 /* Forms */,
+				0080B83A1F733BE3006722A1 /* CTAButton.swift */,
+				0080B83C1F733C1B006722A1 /* ShadowViews.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -193,6 +209,7 @@
 		0080B8271F73316E006722A1 /* Forms */ = {
 			isa = PBXGroup;
 			children = (
+				0080B8421F734430006722A1 /* Formatters */,
 				0080B8281F733187006722A1 /* FormField.swift */,
 				0080B8291F733187006722A1 /* FormFieldInputController.swift */,
 				0080B82A1F733187006722A1 /* FormInputToolbar.swift */,
@@ -200,6 +217,24 @@
 				0080B8331F733381006722A1 /* FormField+Lookup.swift */,
 			);
 			name = Forms;
+			sourceTree = "<group>";
+		};
+		0080B8351F733713006722A1 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				0080B8361F733777006722A1 /* SignInViewController.swift */,
+				0080B8401F73440E006722A1 /* SignInViewModel.swift */,
+				0080B8381F7337A4006722A1 /* SignInView.swift */,
+			);
+			name = "Sign In";
+			sourceTree = "<group>";
+		};
+		0080B8421F734430006722A1 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				0080B8431F73447D006722A1 /* PasswordEntryFormatter.swift */,
+			);
+			name = Formatters;
 			sourceTree = "<group>";
 		};
 		2D4FA8F31E8574D2006C38ED /* Coordinators */ = {
@@ -251,6 +286,7 @@
 		AB955DCB1DE3BDD300D0347E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				0080B8351F733713006722A1 /* Sign In */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -397,6 +433,7 @@
 			children = (
 				ABF84F8A1DC99CFD002DB24D /* Appearance.swift */,
 				ABF84F8B1DC99CFD002DB24D /* TextStyle.swift */,
+				0080B83E1F73437F006722A1 /* UIView+Appearance.swift */,
 			);
 			path = Appearance;
 			sourceTree = "<group>";
@@ -579,7 +616,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen strings --template dot-syntax-swift3 --enumName Localized --output 'ScaleForce/Resources/Generated/Localized.swift' 'ScaleForce/Resources/Localizable.strings'";
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen strings --template dot-syntax-swift3 --enumName Copy --output 'ScaleForce/Resources/Generated/LocalizedCopy.swift' 'ScaleForce/Resources/Localizable.strings'";
 		};
 		2DFF1D1F1E8C56C700B1AD70 /* SwiftGen images */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -711,14 +748,17 @@
 				2DAB59F61E9531F700310ABF /* Closures.swift in Sources */,
 				ABF84F8D1DC99CFD002DB24D /* TextStyle.swift in Sources */,
 				ABF84FA21DCBCB87002DB24D /* Marshal+Utility.swift in Sources */,
+				0080B8371F733777006722A1 /* SignInViewController.swift in Sources */,
 				ABC778EA1DC951B900815FB9 /* LoggingConfiguration.swift in Sources */,
 				0080B8341F733381006722A1 /* FormField+Lookup.swift in Sources */,
+				0080B8411F73440E006722A1 /* SignInViewModel.swift in Sources */,
 				0080B82C1F733187006722A1 /* FormField.swift in Sources */,
 				BE4C21EB1E81970A00645143 /* DebugMenuConfiguration.swift in Sources */,
 				ABF84F9A1DCB70BB002DB24D /* Alamofire+ScaleForce.swift in Sources */,
 				006EFEF21F2641C9004A95DE /* APIClient+ScaleForce.swift in Sources */,
 				006EFEF41F2641D5004A95DE /* APIEnvironment.swift in Sources */,
 				2D4FA8F51E8574F9006C38ED /* AppCoordinator.swift in Sources */,
+				0080B8391F7337A4006722A1 /* SignInView.swift in Sources */,
 				ABC778DA1DC93E9C00815FB9 /* APIEndpoint.swift in Sources */,
 				ABC778C91DC927C900815FB9 /* Formatters.swift in Sources */,
 				BE28092C1E802893006E50D5 /* GoogleAnalytics.swift in Sources */,
@@ -727,6 +767,7 @@
 				2DFF1D161E8BF38F00B1AD70 /* UIColor+Extensions.swift in Sources */,
 				0080B82D1F733187006722A1 /* FormFieldInputController.swift in Sources */,
 				2DFF1CEB1E89423000B1AD70 /* UserDefaults+Utility.swift in Sources */,
+				0080B83B1F733BE3006722A1 /* CTAButton.swift in Sources */,
 				0080B82E1F733187006722A1 /* FormInputToolbar.swift in Sources */,
 				ABF84F921DC99D33002DB24D /* UIImage+Asset.swift in Sources */,
 				ABF84F911DC99D33002DB24D /* Localized.swift in Sources */,
@@ -740,10 +781,13 @@
 				0080B82F1F733187006722A1 /* FormViewController.swift in Sources */,
 				ABF84F981DCAB3B9002DB24D /* APIConstants.swift in Sources */,
 				ABF84F8C1DC99CFD002DB24D /* Appearance.swift in Sources */,
+				0080B83F1F73437F006722A1 /* UIView+Appearance.swift in Sources */,
 				ABC778791DC90B7A00815FB9 /* AppDelegate.swift in Sources */,
+				0080B83D1F733C1B006722A1 /* ShadowViews.swift in Sources */,
 				2DFF1D181E8BF82A00B1AD70 /* Colors.swift in Sources */,
 				BE28092A1E802893006E50D5 /* Analytics.swift in Sources */,
 				ABC778D61DC931A400815FB9 /* APIError.swift in Sources */,
+				0080B8441F73447D006722A1 /* PasswordEntryFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

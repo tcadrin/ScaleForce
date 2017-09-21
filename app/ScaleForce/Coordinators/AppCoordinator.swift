@@ -18,7 +18,7 @@ class AppCoordinator {
 
     func start() {
 
-        window.rootViewController = UIViewController()
+        window.rootViewController = SignInViewController()
         window.makeKeyAndVisible()
 
     }

@@ -94,11 +94,11 @@ private enum Font {
         enum Soft {
 
             static func regular(_ size: CGFloat) -> UIFont {
-                return UIFont(name: "SofiaProSoftRegular", size: size)!
+                return UIFont.systemFont(ofSize: size)
             }
 
             static func bold(_ size: CGFloat) -> UIFont {
-                return UIFont(name: "SofiaProSoftBold", size: size)!
+                return UIFont.systemFont(ofSize: size)
             }
 
         }
